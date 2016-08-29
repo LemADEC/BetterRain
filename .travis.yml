@@ -11,7 +11,6 @@ cache:
 
 before_install:
 - git submodule update --init
-- travis_wait 100 chmod +x ./gradlew
 
 install: travis_wait 100
 
