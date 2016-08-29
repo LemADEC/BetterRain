@@ -139,7 +139,7 @@
 	"minecraft:ice":"ice",
 	"minecraft:snow":"snow",
 	"minecraft:cactus":"grass",
-	"minecraft:clay":"dirt",
+	"minecraft:clay":"mud",
 	"minecraft:hardened_clay":"sandstone",
 	"minecraft:reeds":"#reed",
 	"minecraft:jukebox":"woodutility",
