@@ -7,6 +7,9 @@ branches:
   only:
     - 1.7.10
     - master
+    
+before_install:
+- chmod +x ./gradlew
 
 deploy:
   provider: releases
