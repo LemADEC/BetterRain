@@ -48,7 +48,7 @@ ext.config = parseConfig(file('build.properties'))
 ext.modVersion = "${config.version.mod.major}.${config.version.mod.minor}.${config.version.mod.revis}${config.version.mod.patch}"
 version = "${config.version.minecraft}-${modVersion}"
 group= "${config.group}"
-archivesBaseName = "${config.archive}"
+//archivesBaseName = "${config.archive}"
 
 minecraft {
     version = "${config.version.minecraft}-${config.version.forge}"
