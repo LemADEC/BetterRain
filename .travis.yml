@@ -12,11 +12,6 @@ cache:
   - $HOME/.gradle/wrapper/
 
 before_install:
-# ensure we have ruby
-- ruby --version
-- gem install bundler
-- bundle install
-# fetch 3rd party apis and such
 - git submodule update --init
 - travis_wait 100 chmod +x ./gradlew
 
