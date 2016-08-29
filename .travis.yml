@@ -6,4 +6,5 @@ jdk:
 branches:
   only:
     - 1.7.10
+    - master
 
