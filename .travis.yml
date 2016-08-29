@@ -13,9 +13,9 @@ cache:
 
 before_install:
 - git submodule update --init
-- travis_wait 100 chmod +x ./gradlew
+- chmod +x ./gradlew
 
-install: travis_wait 100 ./gradlew setupCIWorkspace -S
+install: ./gradlew setupCIWorkspace -S
 
 script:
 - travis_wait 100 ./gradlew build
