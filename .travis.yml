@@ -28,7 +28,6 @@ deploy:
   api_key: $GITHUB_OAUTH
   file_glob: true
   file:
-  - "checksums.txt"
   - "build/libs/Dynamic_Surroundings-*-unofficial.jar"
   - "build/packages/Dynamic_Surroundings-*-unofficial-*.jar"
   skip_cleanup: true
