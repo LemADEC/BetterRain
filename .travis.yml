@@ -9,8 +9,7 @@ branches:
     - master
     
 before_install:
-- chmod +x ./gradlew
-- chmod +x ./gradlew assemble
+- chmod +x gradlew
 
 deploy:
   provider: releases
