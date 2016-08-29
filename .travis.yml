@@ -15,10 +15,10 @@ before_install:
 - git submodule update --init
 - travis_wait 100 chmod +x ./gradlew
 
-install: travis_wait 100 ./gradlew setupCIWorkspace -S
+install: travis_wait 100
 
 script:
-- travis_wait 100 ./gradlew build
+- travis_wait 100 gradle check
 - ls -la build/libs
 - ls -la build/packages
 
