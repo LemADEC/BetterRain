@@ -54,7 +54,6 @@ public final class ForgeDictionary {
 			"oreTritanium", "oreTungsten", "oreTelsalite", "oreCheese", "denseorePeridot", "denseoreZinc",
 			"denseoreRuby", "denseoreSapphire", "denseoreAmethyst", "denseoreTungsten", "oreHeeEndium", "oreStarSteel",
 			"oreColdIron", "oreAdamantine", "oreMercury", "oreFossil", "oreShadow", "oreGeneric" };
-
 	private static final String[] metalBlocks = { "blockIron", "blockGold", "blockCopper", "blockTin", "blockSilver",
 			"blockLead", "blockNickle", "blockPlatinum", "blockMithril", "blockElectrum", "blockInvar", "blockBronze",
 			"blockSignalum", "blockLumium", "blockEnderium", "blockSteel", "blockNickel", "blockTitanium",
@@ -88,6 +87,8 @@ public final class ForgeDictionary {
 			"blockLimestone", "genericSandstone" };
 
 	private static final String[] sandBlocks = { "sand", "blockSalt", "blockPsiDust", "denseSand", "dustAsh", "genericSand" };
+
+	private static final String[] sandBlocks = { "sand", "blockSalt", "blockPsiDust", "denseSand", "dustAsh" };
 
 	private static final String[] woodChests = { "chestWood", "chestTrapped", "genericChest" };
 
